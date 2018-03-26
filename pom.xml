@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.jenkins</groupId>
   <artifactId>test1</artifactId>
-  <packaging>jar</packaging>
+  <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
   <name>test1</name>
   <url>http://maven.apache.org</url>
@@ -24,12 +24,5 @@
   </dependencies>
   <build>
     <finalName>test1</finalName>
-    <plugins>
-        <plugin>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-maven-plugin</artifactId>
-            <version>1.2.7.RELEASE</version>
-        </plugin>
-    </plugins>
   </build>
 </project>
